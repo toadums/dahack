@@ -1,24 +1,24 @@
 var input = '10\n\
-cat\n\
-cat\n\
-cat\n\
-dog\n\
-cats hats\n\
-the cats hats\n\
-cats hats\n\
-the cats in the hats\n\
-catshats\n\
-the cats hats\n\
-catshats\n\
-thecatshats\n\
-luke bryant john\n\
-Luke Bryant Johnston\n\
-lukebryantjohn\n\
-Luke Bryant Johnston\n\
-luke bry john\n\
-Luke Bryant Johnston\n\
-lu ke\n\
-luke Bryant Johnston';
+steve\n\
+steve\n\
+steve\n\
+steve bartman\n\
+steve\n\
+bartman, steve\n\
+steve\n\
+stevebartman\n\
+steve\n\
+bartmansteve\n\
+stevebartman\n\
+steve bartman\n\
+steve h bartman\n\
+steve henry bartman\n\
+steve henry bart\n\
+steve henry bartman\n\
+stevehenrybart\n\
+steve henry bartman\n\
+eve henry bart\n\
+steve henry bartman';
 
 var input_array = input.split('\n');
 

@@ -4,22 +4,101 @@ var position = [0,0];
 
 
 
-var input = 'Move 2\n\
+var input = 'Turn right\n\
+Move 1\n\
 Turn right\n\
-Move 4\n\
-Turn left\n\
 Move -5\n\
-Turn right\n\
+Turn left\n\
 Move 10\n\
+Turn right\n\
+Move 2\n\
 Turn left\n\
-Move -2\n\
+Move -1\n\
+Turn right\n\
+Turn right\n\
+Move -5\n\
+Move 3\n\
+Turn right\n\
+Turn right\n\
+Move -5\n\
 Turn left\n\
+Move 10\n\
+Turn right\n\
+Move 2\n\
 Turn left\n\
-Move 5\n\
-Move -2\n\
+Move -1\n\
+Turn right\n\
+Turn right\n\
+Move -5\n\
+Move 3\n\
+Turn right\n\
+Move 0\n\
+Move -10\n\
+Turn right\n\
+Turn right\n\
+Move -5\n\
+Move 3\n\
 Turn right\n\
 Move 1\n\
-Move 0';
+Turn right\n\
+Move -5\n\
+Turn left\n\
+Move 10\n\
+Move 0\n\
+Move -10\n\
+Turn right\n\
+Move 1\n\
+Turn right\n\
+Move -5\n\
+Turn left\n\
+Move 10\n\
+Turn right\n\
+Move 2\n\
+Turn left\n\
+Move -1\n\
+Turn right\n\
+Turn right\n\
+Turn right\n\
+Turn right\n\
+Turn right\n\
+Turn right\n\
+Move -5\n\
+Move 3\n\
+Turn right\n\
+Move 0\n\
+Move -10\n\
+Turn right\n\
+Move 1\n\
+Turn right\n\
+Move -5\n\
+Turn left\n\
+Move 10\n\
+Move 0\n\
+Turn left\n\
+Turn left\n\
+Turn left\n\
+Move -10\n\
+Turn right\n\
+Move 1\n\
+Turn right\n\
+Move -5\n\
+Turn left\n\
+Move 10\n\
+Turn right\n\
+Move 2\n\
+Turn left\n\
+Move -1\n\
+Turn right\n\
+Turn right\n\
+Turn right\n\
+Turn right\n\
+Turn right\n\
+Turn right\n\
+Move -5\n\
+Move 3\n\
+Turn right\n\
+Move 0\n\
+Move -10';
 
 var input_array = input.split('\n');
 
@@ -97,6 +176,6 @@ for(var i = 0;i<directions_array.length;i++)
 
 		}
 	}
-	console.log(position[0] + ',' + position[1]);
 
 }
+	console.log(position[0] + ',' + position[1]);
