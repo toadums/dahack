@@ -33,7 +33,14 @@ for(var i = 1;i<input_array.length-1;i+=2)
 	{
 		if(body.indexOf(' ') !== -1 || body.toLowerCase().indexOf(' ') !== -1)
 		{
-			console.log('true');
+			if(body.indexOf(query) === 0 || body.toLowerCase().indexOf(query) === 0)
+			{
+				console.log('true');
+			}
+			else
+			{
+				console.log('false');
+			}
 			//found normally, good to go
 		}
 		else
