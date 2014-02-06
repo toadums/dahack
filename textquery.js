@@ -23,7 +23,7 @@ steve henry bartman';
 var input_array = input.split('\n');
 
 var num = input_array[0];
-
+console.log(num);
 for(var i = 1;i<input_array.length-1;i+=2)
 {
 	var query = input_array[i]
@@ -74,7 +74,7 @@ for(var i = 1;i<input_array.length-1;i+=2)
 			if(body_no.indexOf(query) !== -1 || body_no.toLowerCase().indexOf(query) !== -1)
 			{
 				console.log('true');
-			} 
+			}
 			else
 			{
 				console.log('false');
