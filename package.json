@@ -1,0 +1,14 @@
+{
+  "description": "",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "coffee-script": "=1.6.3",
+    "express": "=3.1.0",
+    "underscore": "*",
+    "socket.io": "*"
+  },
+  "devDependencies": {
+    "mocha": "1.11.0"
+  }
+}
