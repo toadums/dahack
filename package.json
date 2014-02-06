@@ -6,7 +6,8 @@
     "coffee-script": "=1.6.3",
     "express": "=3.1.0",
     "underscore": "*",
-    "socket.io": "*"
+    "socket.io": "*",
+    "prototype": "*"
   },
   "devDependencies": {
     "mocha": "1.11.0"
